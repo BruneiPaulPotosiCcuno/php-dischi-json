@@ -28,20 +28,22 @@
   </nav>
 </header>
 
-    <main>
-        <div id="app">
+    <div id="app">
+        <main> 
             <section class="container d-flex justify-content-evenly flex-wrap">
-                <div class="ms-card m-4">
-                    <img class="img-fluid p-4" :src="disc.poster" :alt="disc.title">
+
+                <div v-for="disc in discs" class="ms-card m-4">
+                    <img class="img-fluid p-4" :src="disc.poster" alt="">
                     <div class="text-center">
-                        <div>DISC.TITLE</div>
-                        <div>DISC,AUTHOR</div>
-                        <div>DISC.YEAR</div>
-                    </div>
+                        <div> <b> {{disc.title}} </b> </div>
+                        <div> {{disc.author}}  </div>
+                        <div> <b>{{disc.year}} </b> </div>
+                    </div>                           
                 </div>
+
             </section>
-        </div>
-    </main>
+        </main>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
