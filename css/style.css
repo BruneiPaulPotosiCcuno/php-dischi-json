@@ -1,0 +1,23 @@
+header {
+    height: 120px;
+}
+
+header img {
+    height: 80px;
+}
+
+main {
+    background-color: #1d2d3c;
+}
+
+.ms-card {
+    height: 400px;
+    width: 300px;
+    background-color: #112030;
+    color: white;
+    
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}

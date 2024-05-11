@@ -18,16 +18,15 @@
     <script src="https://unpkg.com/vue@3"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" alt="Logo" class="d-inline-block align-text-top">
-                    Disco Collection
-                </a>
-            </div>
-        </nav>
-    </header>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-3 d-flex align-items-center" href="#">
+        <img src="./img/spotify-logo.png" alt="Spotify Logo" class="me-2">
+      </a>
+    </div>
+  </nav>
+</header>
 
     <main>
         <div id="app">
